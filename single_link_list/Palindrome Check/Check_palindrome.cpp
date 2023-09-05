@@ -30,8 +30,6 @@ void append(Node* &Head,Node* &tail,int data){
 
 }
 
-
-
 void show(Node* &Head){
     Node* curr = Head;
 
@@ -43,7 +41,6 @@ void show(Node* &Head){
     cout<<endl;
     
 }
-
 int main(int argc, char const *argv[])
 {
     Node *Node1 = new Node(5);
